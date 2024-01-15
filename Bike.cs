@@ -14,11 +14,13 @@ namespace A_Classes_StephanieLopez
         private string _type;
         private string _color1;
         private int _numberofwheels;
+        private int _numberofgears;
 
         //Properties!
         public string Brand { get => _brand; set => _brand = value; }
         public string Type { get => _type; set => _type = value; }
         public string Color1 { get => _color1; set => _color1 = value; }
         public int _NumberOfWheels { get => _numberofwheels; set => _numberofwheels = value; }
+        public int _NumberOfGears { get => _numberofgears; set => _numberofgears = value; }
     }
 }
